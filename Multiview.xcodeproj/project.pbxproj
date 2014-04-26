@@ -21,6 +21,7 @@
 		03126766190C6B4A00AF9AFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03126748190C6B4A00AF9AFA /* UIKit.framework */; };
 		0312676E190C6B4A00AF9AFA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0312676C190C6B4A00AF9AFA /* InfoPlist.strings */; };
 		03126770190C6B4A00AF9AFA /* MultiviewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0312676F190C6B4A00AF9AFA /* MultiviewTests.m */; };
+		0312677A190C6FC900AF9AFA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03126779190C6FC900AF9AFA /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		0312676B190C6B4A00AF9AFA /* MultiviewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MultiviewTests-Info.plist"; sourceTree = "<group>"; };
 		0312676D190C6B4A00AF9AFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0312676F190C6B4A00AF9AFA /* MultiviewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiviewTests.m; sourceTree = "<group>"; };
+		03126779190C6FC900AF9AFA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0312677A190C6FC900AF9AFA /* MapKit.framework in Frameworks */,
 				03126747190C6B4A00AF9AFA /* CoreGraphics.framework in Frameworks */,
 				03126749190C6B4A00AF9AFA /* UIKit.framework in Frameworks */,
 				03126745190C6B4A00AF9AFA /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		03126743190C6B4A00AF9AFA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				03126779190C6FC900AF9AFA /* MapKit.framework */,
 				03126744190C6B4A00AF9AFA /* Foundation.framework */,
 				03126746190C6B4A00AF9AFA /* CoreGraphics.framework */,
 				03126748190C6B4A00AF9AFA /* UIKit.framework */,
